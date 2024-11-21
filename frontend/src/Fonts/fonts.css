@@ -1,0 +1,55 @@
+@font-face {
+    /* Baou-Display (Normal Weight) */
+    font-family: 'PlaywriteES-Regular';
+    src: url('../Fonts/PlaywriteES-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    /* Baou-Display (Normal Weight) */
+    font-family: 'AntoniaH1-BlackItalic';
+    src: url('../Fonts/AntoniaH1-BlackItalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    /* Baou-Display (Normal Weight) */
+    font-family: 'Poppins-Light';
+    src: url('../Fonts/Poppins-Light.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    
+    font-family: 'Bevas';
+    src: url('../Fonts/Bevas.otf') format('postscript');
+
+   
+  }
+  @font-face {
+    
+    font-family: 'Boilover-Regular';
+    src: url('../Fonts/Boilover-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    
+  }
+
+  @font-face {
+    
+    font-family: 'against-regular';
+    src: url('./against-regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    
+    font-family: 'Aceh-Light';
+    src: url('./Aceh-Light.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  

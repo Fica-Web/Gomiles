@@ -24,11 +24,13 @@ export default {
         gray: "#2d2e29",
         gray1: "#141414",
         gray2: "#fcfcfc",
+        gray3: "#f2f2f2",
         lightgray:"#656661",
         offwhite: "#f0edea",
         primary: "#FFF0CC",
-        brandYellow: "#FDC432",
+        brandOrange: "#ffbd9c",
         textColor: "#545454",
+        orange:"#faa073"
         
       },
       fontFamily: {

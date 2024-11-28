@@ -2,7 +2,7 @@ import React from 'react';
 
 const ContactMap = () => {
   return (
-    <div className="mt-20 w-11/12 mx-auto">
+    <div className="mt-6 w-11/12 mx-auto">
       {/* Text Section */}
       <div className="text-center mb-6 space-y-8">
         <h2 className="font-Marcellus text-3xl lg:text-4xl xl:text-6xl">Find Us on <span className='font-against-regular text-2xl xl:text-6xl'>Map</span></h2>

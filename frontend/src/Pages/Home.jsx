@@ -4,6 +4,7 @@ import Introduction from '../Components/Home/Introduction'
 import Hero from '../Components/Home/Hero'
 import Testimonials from '../Components/Home/Testimonials'
 import PackageCard from '../Components/Packages/PackageCard'
+import Beliefs from '../Components/About/Beliefs'
 
 const Home = () => {
   return (
@@ -11,6 +12,10 @@ const Home = () => {
         <Banner />
         <Hero />
         <PackageCard />
+        <div className='bg-gray3'>
+        <Beliefs />
+        </div>
+        
         <Introduction />
         <Testimonials />
     </div>

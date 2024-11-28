@@ -15,38 +15,35 @@ const NavBar = () => {
 
   return (
     <div className="w-full top-0 left-0 z-50 relative">
-      <div className="md:flex items-center justify-between py-4 md:px-10 px-7">
+      {/* Desktop & Mobile Wrapper */}
+      <div className="md:px-10 px-7 py-4 flex md:flex-col items-center justify-between lg:justify-center">
         {/* Logo Section */}
-        <div className="w-28">
+        <div className="w-28 flex-shrink-0">
           <img src={logo} alt="Gomiles Logo" />
         </div>
 
-        {/* Hamburger Menu Icon */}
+        {/* Hamburger Menu Icon (Mobile Only) */}
         <div
           onClick={() => setOpen(!open)}
-          className="text-3xl absolute right-8 top-6 cursor-pointer lg:hidden"
+          className="text-3xl absolute right-8 lg:top-6 cursor-pointer lg:hidden"
         >
           <IonIcon icon={open ? close : menu} className="text-black" />
         </div>
 
         {/* Navigation Links */}
         <ul
-          className={`bg-white lg:bg-transparent lg:flex lg:items-center text-white lg:pb-0 absolute lg:static
-          lg:z-auto z-40 left-0 w-full lg:w-auto lg:pl-0 pl-9 transition-all duration-500 ease-in ${
+          className={`bg-white  lg:bg-transparent lg:flex lg:flex-row lg:items-center text-center text-white 
+          lg:mt-4 md:mt-2 lg:space-y-0 lg:space-x-8 lg:static absolute left-0 w-full lg:w-auto
+          lg:pl-0 pl-9 transition-all duration-500 ease-in z-40 ${
             open ? "top-20 opacity-100" : "top-[-490px]"
-          } md:opacity-100 opacity-0`}
+          } lg:opacity-100 opacity-0`}
         >
           {Links.map((link) => (
             <li
               key={link.name}
-              className="lg:ml-8 lg:text-sm xl:text-xl font-Bevas uppercase lg:my-0 my-7"
+              className="lg:my-0 my-7 text-black lg:text-sm xl:text-base uppercase hover:text-gray-400 duration-500"
             >
-              <Link
-                to={link.link}
-                className="text-textColor hover:text-gray-400 duration-500"
-              >
-                {link.name}
-              </Link>
+              <Link to={link.link}>{link.name}</Link>
             </li>
           ))}
         </ul>

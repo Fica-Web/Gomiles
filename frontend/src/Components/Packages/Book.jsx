@@ -10,8 +10,8 @@ const Book = () => {
             <h3  className='font-Montserrat text-textColor text-base lg:text-lg xl:text-xl'>Tell us about your travel preferences and interests to create a personalized itinerary for your unforgettable trip to Turkey.</h3>
         </div>
         <div className='w-5/6  text-center mx-auto mt-10 space-y-6'>
-            <h1 className='font-Marcellus text-xl lg:text-2xl xl:text-3xl'>Phone Number: +90 534 259 66 56</h1>
-            <h1 className='font-Marcellus text-xl lg:text-2xl xl:text-3xl'>Email: info@gomilesinternational.com</h1>
+            <h1 className='font-Marcellus text-xl lg:text-2xl xl:text-xl'>Phone Number: +90 534 259 66 56</h1>
+            <h1 className='font-Marcellus text-xl lg:text-2xl xl:text-xl'>Email: info@gomilesinternational.com</h1>
         </div>
     </div>
 </div>

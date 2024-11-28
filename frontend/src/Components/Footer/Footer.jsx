@@ -37,7 +37,7 @@ const Footer = () => {
         <div className='w-11/12 mx-auto'>
           <h5 className='font-Switzer-Medium text-xs  text-gray3 xl:text-sm'>Socials</h5>
           <h4 className='mt-6'><a
-            href="https://m.facebook.com/benchcaferestaurant/"
+            href="/#"
             target="_blank"
             rel="noopener noreferrer"
             className=' uppercase font-Switzer-Medium text-sm mt-2 text-white  xl:text-base hover:text-golden cursor-pointer transition-colors duration-300'
@@ -46,7 +46,7 @@ const Footer = () => {
           </a></h4>
 
           <h4 ><a
-            href="https://m.facebook.com/benchcaferestaurant/"
+            href="/#"
             target="_blank"
             rel="noopener noreferrer"
             className='uppercase font-Switzer-Medium text-sm text-white font-Marcellus xl:text-base hover:text-golden cursor-pointer transition-colors duration-300'
@@ -54,7 +54,7 @@ const Footer = () => {
             Instagram
           </a></h4>
           <h4 ><a
-            href="https://m.facebook.com/benchcaferestaurant/"
+            href="/#"
             target="_blank"
             rel="noopener noreferrer"
             className='uppercase font-Switzer-Medium text-sm text-white font-Marcellus xl:text-base hover:text-golden cursor-pointer transition-colors duration-300'
@@ -62,7 +62,7 @@ const Footer = () => {
             linkedin
           </a></h4>
           <h4 ><a
-            href="https://m.facebook.com/benchcaferestaurant/"
+            href="/#"
             target="_blank"
             rel="noopener noreferrer"
             className='uppercase font-Switzer-Medium text-sm text-white font-Marcellus xl:text-base hover:text-golden cursor-pointer transition-colors duration-300'

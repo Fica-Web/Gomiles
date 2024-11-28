@@ -3,6 +3,11 @@ import { useSelector, useDispatch } from 'react-redux';
 import { setPackages, selectPackage } from '../../Reducer/packageSlice';
 import { useNavigate } from 'react-router-dom';
 import img2 from "../../assets/Images/package01.png"
+import img3 from "../../assets/Images/package1.jpeg"
+import img4 from "../../assets/Images/packages2.jpeg"
+import img5 from "../../assets/Images/packages4.jpeg"
+import img6 from "../../assets/Images/packages6.jpeg"
+import img7 from "../../assets/Images/packages7.jpeg"
 
 
 const PackageCard = () => {
@@ -16,7 +21,7 @@ const PackageCard = () => {
         id: 1,
         name: 'TURKEY IN A WEEK',
         duration: "7 DAYS & 6 NIGHTS",
-        image: img2,
+        image: img3,
         itinerary: [
           {
             day: 1,
@@ -87,7 +92,7 @@ const PackageCard = () => {
         id: 2,
         name: 'ISTANBUL & CAPPADOCIA',
         duration: "5 DAYS & 4 NIGHTS",
-        image: img2,
+        image: img4,
         itinerary: [
           {
             day: 1,
@@ -140,7 +145,7 @@ const PackageCard = () => {
         id: 3,
         name: 'ANTALYA & FETHIYE',
         duration: "4 DAYS & 3 NIGHTS",
-        image: img2,
+        image: img5,
         itinerary: [
           {
             day: 1,
@@ -184,7 +189,7 @@ const PackageCard = () => {
         id: 4,
         name: 'ISTANBUL & BURSA',
         duration: "5 DAYS & 4 NIGHTS",
-        image: img2,
+        image: img6,
         itinerary: [
           {
             day: 1,
@@ -237,7 +242,7 @@ const PackageCard = () => {
         id: 5,
         name: 'TURKEY GRAND TOUR',
         duration: "12 DAYS & 11 NIGHTS",
-        image: img2,
+        image: img7,
         itinerary: [
           {
             day: 1,
@@ -361,33 +366,38 @@ const PackageCard = () => {
     navigate(`/packages/${pkg.id}`);
   };
   return (
-    <div className='mt-40'>
-      <div className='w-11/12 mx-auto'>
-        <h1 className='text-2xl uppercase font-Marcellus md:text-4xl lg:text-5xl'>Tour Packages</h1>
-      </div>
-      <div className="mt-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 px-4">
-
-        {packages.map((pkg) => (
-          <div
-            key={pkg.id}
-            className="bg-white  rounded-lg overflow-hidden hover:shadow-lg transition-shadow duration-300 cursor-pointer"
-            onClick={() => handlePackageClick(pkg)}
-          >
-            <img
-              src={pkg.image}
-              alt={pkg.name}
-              className="w-full h-96 object-cover"
-              
-            />
-            <div className="p-4">
-              <h2 className="text-lg  font-Switzer-Medium text-gray1">{pkg.name}</h2>
-            </div>
-          </div>
-        ))}
-      </div>
-
-
+    <div className='mt-20 lg:w-11/12 mx-auto'>
+    <div className='w-11/12 mx-auto'>
+      <h1 className='text-2xl uppercase font-Bevas md:text-4xl lg:text-5xl'>Tour Packages</h1>
     </div>
+    <div className="mt-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 px-4">
+      {packages.map((pkg) => (
+        <div
+          key={pkg.id}
+          className="relative rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300"
+          onClick={() => handlePackageClick(pkg)}
+        >
+          {/* Image */}
+          <img
+            src={pkg.image}
+            alt={pkg.name}
+            className="w-full h-119 object-cover"
+          />
+  
+          {/* Text Overlay */}
+          <div className="absolute bottom-0 left-0 right-0 space-y-1 bg-gradient-to-t from-black via-transparent to-transparent p-4">
+            <h2 className="text-lg font-Bevas text-white">{pkg.name}</h2>
+            <p className="text-sm font-Bevas text-white">
+              {pkg.duration}
+            </p>
+          </div>
+        </div>
+      ))}
+    </div>
+  </div>
+  
+
+
 
   )
 }

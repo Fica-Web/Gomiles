@@ -6,8 +6,8 @@ const PackageBanner = () => {
     <div className='mt-14 lg:mt-32'>
     <div className='w-11/12 mx-auto  md:flex  xl:w-5/6 '>
         <div className="md:w-1/2  py-12 lg:py-16 ">
-            <h1 className="font-Marcellus text-3xl lg:text-4xl xl:text-6xl">Travel smarter, connect deeper.</h1>
-            <p className="mt-8 font-Montserrat text-textColor text-base lg:mt-6 lg:text-lg xl:mt-10">
+            <h1 className="font-Bevas text-3xl lg:text-4xl xl:text-6xl">Travel smarter, connect deeper.</h1>
+            <p className="mt-8 font-Aceh-Light text-textColor text-base lg:mt-6 lg:text-lg xl:mt-10">
                 Gomiles International, your trusted partner for unforgettable travel experiences. We’re thrilled to expand our horizons and offer captivating journeys to Georgia, Dubai, and our home state, Kerala.
 
                 Founded in 2023, Gomiles International has quickly established itself as a trusted name in the travel industry. Our passion for travel and commitment to excellence have driven us to explore new destinations and offer innovative travel packages

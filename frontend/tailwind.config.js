@@ -28,9 +28,10 @@ export default {
         lightgray:"#656661",
         offwhite: "#f0edea",
         primary: "#FFF0CC",
-        brandOrange: "#ffbd9c",
+        brandOrange: "#f48243",
         textColor: "#545454",
-        orange:"#faa073"
+        orange:"#faa073",
+        blue:"#5ea9db"
         
       },
       fontFamily: {

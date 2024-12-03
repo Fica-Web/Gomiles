@@ -21,7 +21,7 @@ const AboutUs = () => {
                         journeys that blend adventure, culture, and sustainability. Our mission
                         is to connect travelers with the worlds wonders while preserving its beauty for generations to come.
                     </p>
-                    <button className='bg-black text-white rounded-xl p-2 font-Bevas xl:p-2 xl:text-xl'>Explore Now</button>
+                    <button className='bg-black text-white rounded-xl p-2 px-4  font-Bevas xl:p-2 xl:text-xl'>Explore Now</button>
                 </div>
             </div>
             

@@ -12,7 +12,7 @@ const AboutConnect = () => {
         </div>
         <div className='w-5/6  text-center mx-auto mt-10 space-y-6'>
         <Link to="/packages">
-            <button className="bg-black text-white rounded-xl p-2 font-Bevas xl:p-2 xl:text-xl transition duration-300 hover:shadow-lg hover:text-gray1">
+            <button className="bg-black text-white rounded-xl p-2 px-4 font-Bevas xl:p-2 xl:text-xl transition duration-300 hover:shadow-lg hover:text-gray1">
                 Explore Now
             </button>
         </Link>

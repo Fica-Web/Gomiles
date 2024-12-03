@@ -35,7 +35,7 @@ const Banner = () => {
 
         {/* Button below the quote in mobile view */}
         <button
-          className="text-gray1 font-bold py-2 px-2 lg:py-4 lg:px-4 rounded-xl shadow-lg hover:bg-gray-700 hover:text-white transition duration-300"
+          className="text-white font-bold py-2 px-2 lg:py-4 lg:px-4 rounded-xl shadow-lg hover:bg-gray-700 hover:text-white transition duration-300"
           onClick={() => window.open("https://gomilesbooking.netlify.app/", "_blank")}
         >
           Book Now

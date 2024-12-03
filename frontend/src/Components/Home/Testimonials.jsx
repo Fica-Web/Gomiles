@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import img1 from "../../assets/Images/banner.jpeg";
+import img1 from "../../assets/Images/testimonial.png"
 
 const Testimonials = () => {
   const testimonialData = [
@@ -8,24 +8,24 @@ const Testimonials = () => {
       img: img1,
       content_text:
         "They provided an amazing adventure that I'll never forget. The accommodations were top-notch, and the itinerary was a perfect trip of relaxation and excitement.",
-      testimonial_name: "Jose Miguel",
-      location: "Spain",
+      testimonial_name: "Sakkir  Jamal",
+      location: "Dubai",
     },
     {
       id: 2,
       img: img1,
       content_text:
         "This was one of the best experiences of my life. Everything was planned to perfection and the team was incredibly helpful.",
-      testimonial_name: "Jennifer Musk",
-      location: "USA",
+      testimonial_name: "Omar",
+      location: "India",
     },
     {
       id: 3,
       img: img1,
       content_text:
         "An unforgettable trip! The service was excellent, and the destinations were breathtaking. Highly recommend them!",
-      testimonial_name: "Marie Claire",
-      location: "France",
+      testimonial_name: "Abdul Najeeb",
+      location: "India",
     },
   ];
 

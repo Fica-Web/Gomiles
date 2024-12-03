@@ -28,7 +28,7 @@ const Footer = () => {
           <h5 className='font-Switzer-Medium text-xs text-gray3 xl:text-sm'>Sitemap</h5>
           <h3 className='uppercase mt-6 font-Switzer-Medium text-sm xl:text-base'>Home</h3>
           <h3 className='uppercase font-Switzer-Medium text-sm xl:text-base'>About</h3>
-          <h3 className='uppercase font-Switzer-Medium text-sm xl:text-base'>Projects</h3>
+          <h3 className='uppercase font-Switzer-Medium text-sm xl:text-base'>Packages</h3>
           <h3 className='uppercase font-Switzer-Medium text-sm xl:text-base'>News</h3>
           <h3 className='uppercase font-Switzer-Medium text-sm xl:text-base'>Careers</h3>
           <h3 className='uppercase font-Switzer-Medium text-sm xl:text-base'>Contact</h3>
@@ -46,7 +46,7 @@ const Footer = () => {
           </a></h4>
 
           <h4 ><a
-            href="/#"
+            href="https://www.instagram.com/gomilesturkey/profilecard/?igsh=MXI4dnF5NW1kMjdpcw=="
             target="_blank"
             rel="noopener noreferrer"
             className='uppercase font-Switzer-Medium text-sm text-white font-Marcellus xl:text-base hover:text-golden cursor-pointer transition-colors duration-300'
@@ -54,7 +54,7 @@ const Footer = () => {
             Instagram
           </a></h4>
           <h4 ><a
-            href="/#"
+            href="https://www.linkedin.com/company/gomilesinternational/"
             target="_blank"
             rel="noopener noreferrer"
             className='uppercase font-Switzer-Medium text-sm text-white font-Marcellus xl:text-base hover:text-golden cursor-pointer transition-colors duration-300'
@@ -62,7 +62,7 @@ const Footer = () => {
             linkedin
           </a></h4>
           <h4 ><a
-            href="/#"
+            href="https://www.linkedin.com/company/gomilesinternational/"
             target="_blank"
             rel="noopener noreferrer"
             className='uppercase font-Switzer-Medium text-sm text-white font-Marcellus xl:text-base hover:text-golden cursor-pointer transition-colors duration-300'

@@ -29,7 +29,7 @@ const PackageCard = () => {
             details: {
               place: "Istanbul",
               activities: ["Arrival", "Blue Mosque", "Aya Sofia","Galata tower"],
-              meals: "Dinner included"
+              meals: "Breakfast"
             }
           },
           {
@@ -38,7 +38,7 @@ const PackageCard = () => {
             details: {
               place: "Cappadocia",
               activities: ["Road trip to Cappadocia (760 KM, via Ankara)", "Paşabag", "Devrent Valley"," Avanos pottery demonstration","Horse Ride"],
-              meals: "Breakfast , lunch and Dinner included"
+              meals: "Breakfast"
             }
           },
           {
@@ -47,7 +47,7 @@ const PackageCard = () => {
             details: {
               place: "Cappadocia",
               activities: ["Hot Air Balloon Ride", "Underground city", " Pigeon Valley", "Uçhisar Castle", "Göreme Panorama", "Rose Valley", "Drive to Fethiye (746 KM, via Isparta & Konya)"],
-              meals: "Breakfast , lunch and Dinner included"
+              meals: "Breakfast"
             }
           },
           {
@@ -56,7 +56,7 @@ const PackageCard = () => {
             details: {
               place: "Fethiye",
               activities: ["Sightseeing", "Paragliding","Cave Village (ruins)","Fish bazaar","Panoramas","Hidden Villages","Marina"],
-              meals: "Breakfast , lunch and Dinner included"
+              meals: "Breakfast"
             }
           },
           {
@@ -65,7 +65,7 @@ const PackageCard = () => {
             details: {
               place: "Bursa",
               activities: ["Drive to Pamukkale", "Hierapolis","Greek city","Hot air balloon","Drive to Istanbul via Bursa"],
-              meals: "Breakfast , lunch and Dinner included"
+              meals: "Breakfast"
             }
           },
           {
@@ -74,7 +74,7 @@ const PackageCard = () => {
             details: {
               place: "Istanbul",
               activities: ["Spice Bazar", "Ortakoy Mosque","Balat","Taksim","Bosporus Cruise"],
-              meals: "Breakfast , lunch and Dinner included"
+              meals: "Breakfast"
             }
           },
           {
@@ -83,7 +83,7 @@ const PackageCard = () => {
             details: {
               place: "Istanbul",
               activities: ["Grand Bazar", "A whole day for Shopping."],
-              meals: "Breakfast , lunch  included"
+              meals: "Breakfast"
             }
           }
         ]
@@ -100,7 +100,7 @@ const PackageCard = () => {
             details: {
               place: "Istanbul",
               activities: ["Arrival", "Blue Mosque", "Aya Sofia","Galata tower"],
-              meals: "Breakfast , lunch and Dinner included"
+              meals: "Breakfast"
             }
           },
           {
@@ -109,7 +109,7 @@ const PackageCard = () => {
             details: {
               place: "Cappadocia",
               activities: ["Paşabag", "Devrent Valley", "Avanos pottery demonstration","Horse Ride"],
-              meals: "Breakfast , lunch and Dinner included"
+              meals: "Breakfast"
             }
           },
           {
@@ -118,7 +118,7 @@ const PackageCard = () => {
             details: {
               place: "Cappadocia",
               activities: ["Hot Air Baloon ride", "Underground city","Pigeon Valley","Uçhisar Castle","Göreme Panorama"," Rose Valley"],
-              meals: "Breakfast , lunch and Dinner included"
+              meals: "Breakfast"
             }
           },
           {
@@ -127,7 +127,7 @@ const PackageCard = () => {
             details: {
               place: "Istanbul",
               activities: ["Ortakoy Mosque", "Ayyub Sultan","Balat","Bosporus Cruise","Taksim"],
-              meals: "Breakfast , lunch and Dinner included"
+              meals: "Breakfast"
             }
           },
           {
@@ -136,7 +136,7 @@ const PackageCard = () => {
             details: {
               place: "Istanbul",
               activities: ["Shopping Day", "Grand Bazar","Spice Bazaar"],
-              meals: "Breakfast , lunch and Dinner included"
+              meals: "Breakfast"
             }
           }
         ]
@@ -153,7 +153,7 @@ const PackageCard = () => {
             details: {
               place: "Antalya",
               activities: ["Upper Dudan waterfalls", "Lower Duden Waterfalls", "Old port"],
-              meals: "Breakfast , lunch and Dinner included"
+              meals: "Breakfast"
             }
           },
           {
@@ -162,7 +162,7 @@ const PackageCard = () => {
             details: {
               place: "Antalya",
               activities: ["Antalya Aquarium", "Cable car", "Marina"],
-              meals: "Breakfast , lunch and Dinner included"
+              meals: "Breakfast"
             }
           },
           {
@@ -171,7 +171,7 @@ const PackageCard = () => {
             details: {
               place: "Marmaris",
               activities: ["Marina", "İsland cruise"],
-              meals: "Breakfast , lunch and Dinner included"
+              meals: "Breakfast"
             }
           },
           {
@@ -180,7 +180,7 @@ const PackageCard = () => {
             details: {
               place: "Fethiye",
               activities: ["Paragliding", "Butterfly Valley","Blue Lagoon","Old Greek village","Oludeniz Beach"],
-              meals: "Breakfast , lunch and Dinner included"
+              meals: "Breakfast"
             }
           },
         ]
@@ -197,7 +197,7 @@ const PackageCard = () => {
             details: {
               place: "Istanbul",
               activities: ["Arrival", "Blue Mosque", "Aya Sofia"],
-              meals: "Breakfast , lunch and Dinner included"
+              meals: "Breakfast"
             }
           },
           {
@@ -206,7 +206,7 @@ const PackageCard = () => {
             details: {
               place: "Istanbul",
               activities: ["Topkapi Palace", "Ortaköy Mosque","Eminonu","Galata Tower","Taksim Square"],
-              meals: "Breakfast , lunch and Dinner included"
+              meals: "Breakfast"
             }
           },
           {
@@ -215,7 +215,7 @@ const PackageCard = () => {
             details: {
               place: "Bursa",
               activities: ["Yalova (Hot Spring)", "Uludağ Mountain (Winter Sports)","Tomb Of Usman (Founder of Ottoman Empire)"],
-              meals: "Breakfast , lunch and Dinner included"
+              meals: "Breakfast"
             }
           },
           {
@@ -224,7 +224,7 @@ const PackageCard = () => {
             details: {
               place: "Istanbul",
               activities: ["Princess Island", "Bosporus Cruise"],
-              meals: "Breakfast , lunch and Dinner included"
+              meals: "Breakfast"
             }
           },
           {
@@ -233,7 +233,7 @@ const PackageCard = () => {
             details: {
               place: "Istanbul",
               activities: ["Spice Bazar", "Grand Bazar", "Day for Shopping"],
-              meals: "Breakfast , lunch and Dinner included"
+              meals: "Breakfast"
             }
           },
         ]
@@ -250,7 +250,7 @@ const PackageCard = () => {
             details: {
               place: "Istanbul",
               activities: ["Blue Mosque", "Galata Tower", "Aya Sofia"],
-              meals: "Breakfast , lunch and Dinner included"
+              meals: "Breakfast"
             }
           },
           {
@@ -259,7 +259,7 @@ const PackageCard = () => {
             details: {
               place: "Istanbul",
               activities: ["Topkapi Palace", "Ortaköy Mosque","Eminonu","Galata Tower","Taksim Square"],
-              meals: "Breakfast , lunch and Dinner included"
+              meals: "Breakfast"
             }
           },
           {
@@ -268,7 +268,7 @@ const PackageCard = () => {
             details: {
               place: "Bursa",
               activities: ["Uludağ Mountain (Winter Sports)", "Tomb Of Usman & Orhan (founder of Ottoman empire)"],
-              meals: "Breakfast , lunch and Dinner included"
+              meals: "Breakfast"
             }
           },
           {
@@ -277,7 +277,7 @@ const PackageCard = () => {
             details: {
               place: "Söğüt",
               activities: ["Tomb of Ertuğrul Gazi", "Places which related Diriliş Ertuğrul series"],
-              meals: "Breakfast , lunch and Dinner included"
+              meals: "Breakfast"
             }
           },
           {
@@ -286,7 +286,7 @@ const PackageCard = () => {
             details: {
               place: "Pamukkale",
               activities: ["Hierapolis tour"],
-              meals: "Breakfast , lunch and Dinner included"
+              meals: "Breakfast"
             }
           },
           {
@@ -295,7 +295,7 @@ const PackageCard = () => {
             details: {
               place: "Fathiye",
               activities: ["Butterfly Valley","Blue Lagoon","Old Greek village","Rock Tombs","Oludeniz Beach"],
-              meals: "Breakfast , lunch and Dinner included"
+              meals: "Breakfast"
             }
           },
           {
@@ -304,7 +304,7 @@ const PackageCard = () => {
             details: {
               place: "Antalya",
               activities: ["Ephesus","Duden Waterfalls","Aquarium","Cable Car","Marina"],
-              meals: "Breakfast , lunch and Dinner included"
+              meals: "Breakfast"
             }
           },
           {
@@ -313,7 +313,7 @@ const PackageCard = () => {
             details: {
               place: "Konya",
               activities: ["Tomb of Rumi","Sama (Sufi Dance)"],
-              meals: "Breakfast , lunch and Dinner included"
+              meals: "Breakfast"
             }
           },
           {
@@ -322,7 +322,7 @@ const PackageCard = () => {
             details: {
               place: "Cappadocia",
               activities: ["Göreme open-air museum","Paşabag","Devrent Valley","Avanos pottery demonstration"],
-              meals: "Breakfast , lunch and Dinner included"
+              meals: "Breakfast"
             }
           },
           {
@@ -331,7 +331,7 @@ const PackageCard = () => {
             details: {
               place: "Cappadocia",
               activities: ["Hot air balloon","Underground city","Pigeon Valley","Uçhisar Castle","Göreme Panorama"," Rose Valley"],
-              meals: "Breakfast , lunch and Dinner included"
+              meals: "Breakfast"
             }
           },
           {
@@ -340,7 +340,7 @@ const PackageCard = () => {
             details: {
               place: "Istanbul",
               activities: ["Sulimaniye Mosque","Ayyub Sultan","Fatih Mosque","Camlica Mosque"],
-              meals: "Breakfast , lunch and Dinner included"
+              meals: "Breakfast"
             }
           },
           {
@@ -349,7 +349,7 @@ const PackageCard = () => {
             details: {
               place: "Istanbul",
               activities: ["Grand Bazaar","Spice Bazaar","Bosphorus Cruise"],
-              meals: "Breakfast , lunch and Dinner included"
+              meals: "Breakfast"
             }
           },
         ]

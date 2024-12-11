@@ -45,7 +45,10 @@ const ContactForm = () => {
                             Phone Number
                         </h2>
                         <p className="text-gray1 font-Aceh-Light sm:text-xl lg:text-base xl:text-lg">
-                        +90 534 259 66 56
+                        Turkey:- +90 534 259 66 56
+                        </p>
+                        <p className="text-gray1 font-Aceh-Light sm:text-xl lg:text-base xl:text-lg">
+                        UAE:- +971 58 952 7383
                         </p>
                     </div>
                 </div>

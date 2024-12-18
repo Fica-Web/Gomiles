@@ -374,14 +374,14 @@ const PackageCard = () => {
       {packages.map((pkg) => (
         <div
           key={pkg.id}
-          className="relative rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300"
+          className="relative group rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300"
           onClick={() => handlePackageClick(pkg)}
         >
           {/* Image */}
           <img
             src={pkg.image}
             alt={pkg.name}
-            className="w-full h-119 object-cover"
+            className="w-full h-119 object-cover transform group-hover:scale-110 transition-transform duration-300"
           />
   
           {/* Text Overlay */}

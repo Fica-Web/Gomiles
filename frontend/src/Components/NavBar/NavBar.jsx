@@ -32,18 +32,21 @@ const NavBar = () => {
 
         {/* Navigation Links */}
         <ul
-          className={`bg-white  lg:bg-transparent lg:flex lg:flex-row lg:items-center text-center text-white 
+          className={`bg-white lg:bg-transparent lg:flex lg:flex-row lg:items-center text-center text-white 
           lg:mt-4 md:mt-2 lg:space-y-0 lg:space-x-8 lg:static absolute left-0 w-full lg:w-auto
-          lg:pl-0 pl-9 transition-all duration-500 ease-in z-40 ${
-            open ? "top-20 opacity-100" : "top-[-490px]"
-          } lg:opacity-100 opacity-0`}
+          lg:pl-0 pl-9 transition-all duration-300 ease-in z-40 ${open ? "top-20 opacity-100" : "top-[-490px]"} lg:opacity-100 opacity-0`}
         >
           {Links.map((link) => (
             <li
               key={link.name}
-              className="lg:my-0 my-7 text-black lg:text-sm xl:text-base uppercase hover:text-gray-400 duration-500"
+              className="relative lg:my-0 my-7 text-black lg:text-sm xl:text-base uppercase hover:text-gray-400 duration-500 group"
             >
-              <Link to={link.link}>{link.name}</Link>
+              <Link to={link.link} className="relative z-10">
+                {link.name}
+              </Link>
+              <span
+                className="absolute left-0 bottom-0 w-0 h-[2px] bg-black transition-all duration-300 ease-in-out group-hover:w-full"
+              />
             </li>
           ))}
         </ul>

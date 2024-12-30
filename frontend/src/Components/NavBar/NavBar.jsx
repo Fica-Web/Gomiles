@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import logo from "../../assets/Images/logo.png";
+import logo from "../../assets/Images/logo-01.png";
 import { IonIcon } from "@ionic/react";
 import { menu, close } from "ionicons/icons";
 
@@ -14,11 +14,11 @@ const NavBar = () => {
   const [open, setOpen] = useState(false);
 
   return (
-    <div className="w-full top-0 left-0 z-50 relative">
+    <div className="w-full top-0 left-0 z-50 relative ">
       {/* Desktop & Mobile Wrapper */}
-      <div className="md:px-10 px-7 py-4 flex md:flex-col items-center justify-between lg:justify-center">
+      <div className="md:px-10 px-7 py-4 flex md:flex-col items-center justify-between lg:justify-center ">
         {/* Logo Section */}
-        <div className="w-28 flex-shrink-0">
+        <div className="w-36 flex-shrink-0 max-h-[100px]">
           <img src={logo} alt="Gomiles Logo" />
         </div>
 
@@ -33,7 +33,7 @@ const NavBar = () => {
         {/* Navigation Links */}
         <ul
           className={`bg-white lg:bg-transparent lg:flex lg:flex-row lg:items-center text-center text-white 
-          lg:mt-4 md:mt-2 lg:space-y-0 lg:space-x-8 lg:static absolute left-0 w-full lg:w-auto
+          lg:mt-4 md:mt-4 mt-8 lg:space-y-0 lg:space-x-8 lg:static absolute left-0 w-full lg:w-auto
           lg:pl-0 pl-9 transition-all duration-300 ease-in z-40 ${open ? "top-20 opacity-100" : "top-[-490px]"} lg:opacity-100 opacity-0`}
         >
           {Links.map((link) => (
@@ -41,7 +41,7 @@ const NavBar = () => {
               key={link.name}
               className="relative lg:my-0 my-7 text-black lg:text-sm xl:text-base uppercase hover:text-gray-400 duration-500 group"
             >
-              <Link to={link.link} className="relative z-10">
+              <Link to={link.link} className="relative z-10 ">
                 {link.name}
               </Link>
               <span

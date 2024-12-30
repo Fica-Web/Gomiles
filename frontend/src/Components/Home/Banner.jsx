@@ -1,5 +1,5 @@
 import React from "react";
-import img1 from "../../assets/Images/Untitled-1.jpg";
+import img1 from "../../assets/Images/banner.png";
 
 import NavBar from "../NavBar/NavBar";
 
@@ -17,7 +17,10 @@ const Banner = () => {
       {/* Center paragraph */}
       <div className="absolute  inset-0 flex items-center justify-center z-10">
         <div className=" text-center text-white space-y-4 max-w-xl mx-4 xl:max-w-2xl">
-          <button className="text-sm md:text-base text-gray-900 font-bold py-2 px-2 lg:py-2 lg:px-4 rounded-full shadow-lg hover:bg-gray-700 hover:text-white transition duration-300">
+          <button 
+            // style={{background: '#1bc4ab'}}
+            className="text-sm md:text-base text-gray-900 font-bold py-2 px-2 lg:py-2 lg:px-4 rounded-full shadow-lg  hover:bg-gray-700 hover:text-white transition duration-300"
+          >
             The Best Place To Start Your Trip
           </button>
           <p className="text-4xl md:text-6xl lg:text-6xl xl:text-7xl font-Poppins-SemiBoldItalic ">
@@ -47,8 +50,3 @@ const Banner = () => {
 };
 
 export default Banner;
-
-
-
-
-

@@ -368,7 +368,7 @@ const PackageCard = () => {
   return (
     <div className='mt-20 lg:w-11/12 mx-auto'>
     <div className='w-11/12 mx-auto'>
-      <h1 className='text-2xl uppercase font-Bevas md:text-4xl lg:text-5xl'>Tour Packages</h1>
+      <h1 className='text-2xl uppercase font-Bevas md:text-4xl lg:text-5xl lg:text-center'>Tour Packages</h1>
     </div>
     <div className="mt-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 px-4">
       {packages.map((pkg) => (

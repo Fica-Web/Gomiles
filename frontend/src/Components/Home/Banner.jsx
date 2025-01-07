@@ -15,7 +15,7 @@ const Banner = () => {
       </div>
 
       {/* Center paragraph */}
-      <div className="absolute  inset-0 flex items-center justify-center z-10">
+      <div className="absolute  inset-0 flex items-center justify-center z-10 mt-8">
         <div className=" text-center text-white space-y-4 max-w-xl mx-4 xl:max-w-2xl">
           <button 
             // style={{background: '#1bc4ab'}}

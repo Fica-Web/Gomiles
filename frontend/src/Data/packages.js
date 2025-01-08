@@ -5,7 +5,9 @@ import img6 from "../assets/Images/packages6.jpeg";
 import img7 from "../assets/Images/packages7.jpeg";
 import img8 from '../assets/Images/Baku.jpg';
 import img9 from '../assets/Images/Pyramid.jpg';
-import img10 from '../assets/Images/georgia.webp'
+import img10 from '../assets/Images/georgia.webp';
+import img11 from '../assets/Images/dubai.jpg';
+import img12 from '../assets/Images/marackech.jpeg';
 
 const samplePackages = [
   {
@@ -700,7 +702,185 @@ const samplePackages = [
       "Entrance fees to sites and activities",
       "Wine tasting session in Kakheti",
     ],
-  },  
+  }, 
+  {
+    id: 9,
+    name: "Dubai",
+    duration: "5 DAYS",
+    image: img11, // Replace with the actual image variable or path
+    itinerary: [
+      {
+        day: 1,
+        title: "Arrival in Dubai + Unique Experiences",
+        details: {
+          place: "Dubai",
+          activities: [
+            "Arrive in Dubai and transfer to your hotel.",
+            "Explore Alserkal Avenue, a vibrant artsy neighborhood in Al Quoz.",
+            "Visit Al Fahidi Historical Neighborhood with narrow alleys and traditional wind towers.",
+            "Take a traditional Abra boat ride through Dubai Creek.",
+            "Evening stroll along Dubai Water Canal with scenic views."
+          ],
+          meals: "Breakfast",
+        },
+      },
+      {
+        day: 2,
+        title: "Cultural & Nature Experiences",
+        details: {
+          place: "Dubai",
+          activities: [
+            "Morning visit to Riyadh Park for relaxation and walks.",
+            "Explore The Coffee Museum and learn about the history of coffee in the Middle East.",
+            "Afternoon trip to Hatta Dam for kayaking or hiking in the peaceful mountain surroundings.",
+            "Evening visit to Jumeirah Fishing Harbor for fresh seafood and a relaxing time by the water."
+          ],
+          meals: "Breakfast",
+        },
+      },
+      {
+        day: 3,
+        title: "Unique Views & Experiences",
+        details: {
+          place: "Dubai",
+          activities: [
+            "Morning visit to rooftop cafes at La Mer Beach for peaceful views.",
+            "Explore The Green Planet, an immersive indoor rainforest at City Walk.",
+            "Afternoon visit to Dubai Design District (d3), a hub for art galleries and boutique shops.",
+            "Evening visit to Dubai Opera Garden for a serene experience."
+          ],
+          meals: "Breakfast",
+        },
+      },
+      {
+        day: 4,
+        title: "Day Trip to Abu Dhabi",
+        details: {
+          place: "Dubai - Abu Dhabi",
+          activities: [
+            "Morning drive to Abu Dhabi (1.5 hours).",
+            "Visit Qasr Al Hosn, the oldest stone building in Abu Dhabi, showcasing the city’s history.",
+            "Afternoon visit to Al Bateen Beach, a peaceful spot in Abu Dhabi.",
+            "Explore Al Ain Oasis, a UNESCO-listed oasis with shaded palm groves and traditional irrigation systems.",
+            "Return to Dubai in the evening."
+          ],
+          meals: "Breakfast",
+        },
+      },
+      {
+        day: 5,
+        title: "Natural & Modern Escapes",
+        details: {
+          place: "Dubai",
+          activities: [
+            "Morning exploration of Dubai Desert Conservation Reserve, with wildlife and peaceful dunes.",
+            "Afternoon visit to Dubai Garden Glow, a luminous garden with themed light sculptures and installations.",
+            "Evening farm-to-table dinner at The Farm in Al Barari, surrounded by greenery."
+          ],
+          meals: "Breakfast",
+        },
+      },
+    ],
+    inclusions: [
+      "Accommodation in 4-star hotels (or as per your preference)",
+      "Breakfast included",
+      "All transfers (private vehicle)",
+      "English-speaking guide",
+      "Entrance fees to sites and activities",
+    ],
+  },
+  {
+    id: 10,
+    name: "Marrakech",
+    duration: "5 DAYS",
+    image: img12, // Replace with the actual image variable or path
+    itinerary: [
+      {
+        day: 1,
+        title: "Arrival in Marrakech",
+        details: {
+          place: "Marrakech",
+          activities: [
+            "Arrive in Marrakech and transfer to your hotel.",
+            "Explore Marrakech Medina: Wander through the narrow streets of the UNESCO-listed old town, visiting Jemaa el-Fnaa square with street performers, food stalls, and markets.",
+            "Visit Koutoubia Mosque and its beautiful gardens.",
+            "Explore Bahia Palace with its stunning architecture and gardens.",
+            "Evening visit to Le Jardin Majorelle, a tranquil garden designed by Jacques Majorelle, later owned by Yves Saint Laurent."
+          ],
+          meals: "Breakfast",
+        },
+      },
+      {
+        day: 2,
+        title: "Marrakech - Atlas Mountains",
+        details: {
+          place: "Marrakech - Atlas Mountains",
+          activities: [
+            "Morning: Take a day trip to the Atlas Mountains (1.5 hours from Marrakech).",
+            "Visit the Berber villages to learn about local life.",
+            "Hike to Ouzoud Waterfalls or enjoy a mule ride around the area.",
+            "Afternoon: Visit a local Berber market for handmade goods.",
+            "Evening: Return to Marrakech for a relaxing evening."
+          ],
+          meals: "Breakfast",
+        },
+      },
+      {
+        day: 3,
+        title: "Marrakech - Essaouira",
+        details: {
+          place: "Marrakech - Essaouira",
+          activities: [
+            "Morning: Travel to Essaouira (2.5 hours).",
+            "Stroll through the medina, a UNESCO World Heritage site with whitewashed buildings and blue accents.",
+            "Visit the Skala de la Ville fortress with views of the Atlantic coast.",
+            "Afternoon: Explore Essaouira beach for its relaxed vibe and beautiful coastline.",
+            "Visit the Essaouira fish market and enjoy fresh seafood.",
+            "Evening: Relax and further explore the vibrant medina."
+          ],
+          meals: "Breakfast",
+        },
+      },
+      {
+        day: 4,
+        title: "Essaouira - Fes",
+        details: {
+          place: "Essaouira - Fes",
+          activities: [
+            "Morning: Travel to Fes (5 hours).",
+            "Visit the Royal Palace and the Bou Inania Madrasa, an example of Marinid architecture.",
+            "Afternoon: Explore Fes el-Bali, the ancient walled city and UNESCO site.",
+            "Visit Al Quaraouiyine Mosque, the oldest continuously operating university in the world.",
+            "Wander through the tanneries and watch the traditional leather-dyeing process.",
+            "Evening: Stroll through the winding streets of the medina and enjoy Moroccan food at a traditional restaurant."
+          ],
+          meals: "Breakfast",
+        },
+      },
+      {
+        day: 5,
+        title: "Fes - Chefchaouen",
+        details: {
+          place: "Fes - Chefchaouen",
+          activities: [
+            "Morning: Travel to Chefchaouen (3.5 hours).",
+            "Explore the iconic blue-painted streets of this charming mountain town.",
+            "Visit Ras El Maa Waterfall for a peaceful escape.",
+            "Afternoon: Wander through the medina, shop for local handicrafts, and visit Kasbah Museum.",
+            "Evening: Enjoy the sunset from The Spanish Mosque, overlooking the town."
+          ],
+          meals: "Breakfast",
+        },
+      },
+    ],
+    inclusions: [
+      "Accommodation in 4-star hotels (or as per your preference)",
+      "Breakfast included",
+      "All transfers (private vehicle)",
+      "English-speaking guide",
+      "Entrance fees to sites and activities"
+    ],
+  }  
 ];
 
-export default samplePackages
+export default samplePackages;

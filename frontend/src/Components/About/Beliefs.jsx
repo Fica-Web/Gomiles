@@ -6,7 +6,7 @@ import { CiStar } from "react-icons/ci";
 
 const Beliefs = () => {
   return (
-    <div className='mt-10 md:mt-32  py-10'>
+    <div className='mt-10 md:mt-24  py-10'>
         <div className='w-11/12 mx-auto  space-y-4 lg:flex lg:space-y-0 lg:space-x-2'>
             <div className='space-y-4 lg:w-1/2 lg:py-28 lg:space-y-20'>
                 <h2 className='font-Bevas text-4xl xl:text-6xl'>Our true beliefs for your benefits</h2>

@@ -11,7 +11,7 @@ const Home = () => {
     <div>
         <Banner />
         <Hero />
-        <PackageCard />
+        <PackageCard limit={8} />
         <div className='bg-gray3'>
         <Beliefs />
         </div>

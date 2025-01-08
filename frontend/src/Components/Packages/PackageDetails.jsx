@@ -12,7 +12,7 @@ const PackageDetails = () => {
     useEffect(() => {
         window.scrollTo(0, 0); // Reset scroll to the top of the page
         const packageData = packages.find((pkg) => pkg.id == id); // Use find instead of filter
-        console.log('Selected package:', packageData, packages, id);
+        // console.log('Selected package:', packageData, packages, id);
         setSelectedPackage(packageData); // Update state with the package object
     }, [id, packages]); // Add dependencies
 

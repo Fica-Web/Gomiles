@@ -8,6 +8,7 @@ import img4 from "../../assets/Images/packages2.jpeg"
 import img5 from "../../assets/Images/packages4.jpeg"
 import img6 from "../../assets/Images/packages6.jpeg"
 import img7 from "../../assets/Images/packages7.jpeg"
+import samplePackages from '../../Data/packages';
 
 
 const PackageCard = () => {
@@ -16,346 +17,346 @@ const PackageCard = () => {
   const packages = useSelector((state) => state.packages.packages);
 
   useEffect(()=>{
-    const samplePackages  = [
-      {
-        id: 1,
-        name: 'TURKEY IN A WEEK',
-        duration: "7 DAYS & 6 NIGHTS",
-        image: img3,
-        itinerary: [
-          {
-            day: 1,
-            title: "Istanbul",
-            details: {
-              place: "Istanbul",
-              activities: ["Arrival", "Blue Mosque", "Aya Sofia","Galata tower"],
-              meals: "Breakfast"
-            }
-          },
-          {
-            day: 2,
-            title: "Cappadocia",
-            details: {
-              place: "Cappadocia",
-              activities: ["Road trip to Cappadocia (760 KM, via Ankara)", "Paşabag", "Devrent Valley"," Avanos pottery demonstration","Horse Ride"],
-              meals: "Breakfast"
-            }
-          },
-          {
-            day: 3,
-            title: "Cappadocia",
-            details: {
-              place: "Cappadocia",
-              activities: ["Hot Air Balloon Ride", "Underground city", " Pigeon Valley", "Uçhisar Castle", "Göreme Panorama", "Rose Valley", "Drive to Fethiye (746 KM, via Isparta & Konya)"],
-              meals: "Breakfast"
-            }
-          },
-          {
-            day: 4,
-            title: "Fethiye",
-            details: {
-              place: "Fethiye",
-              activities: ["Sightseeing", "Paragliding","Cave Village (ruins)","Fish bazaar","Panoramas","Hidden Villages","Marina"],
-              meals: "Breakfast"
-            }
-          },
-          {
-            day: 5,
-            title: "Bursa",
-            details: {
-              place: "Bursa",
-              activities: ["Drive to Pamukkale", "Hierapolis","Greek city","Hot air balloon","Drive to Istanbul via Bursa"],
-              meals: "Breakfast"
-            }
-          },
-          {
-            day: 6,
-            title: "Istanbul",
-            details: {
-              place: "Istanbul",
-              activities: ["Spice Bazar", "Ortakoy Mosque","Balat","Taksim","Bosporus Cruise"],
-              meals: "Breakfast"
-            }
-          },
-          {
-            day: 7,
-            title: "Istanbul",
-            details: {
-              place: "Istanbul",
-              activities: ["Grand Bazar", "A whole day for Shopping."],
-              meals: "Breakfast"
-            }
-          }
-        ]
-      },
-      {
-        id: 2,
-        name: 'ISTANBUL & CAPPADOCIA',
-        duration: "5 DAYS & 4 NIGHTS",
-        image: img4,
-        itinerary: [
-          {
-            day: 1,
-            title: "Istanbul",
-            details: {
-              place: "Istanbul",
-              activities: ["Arrival", "Blue Mosque", "Aya Sofia","Galata tower"],
-              meals: "Breakfast"
-            }
-          },
-          {
-            day: 2,
-            title: "Cappadocia",
-            details: {
-              place: "Cappadocia",
-              activities: ["Paşabag", "Devrent Valley", "Avanos pottery demonstration","Horse Ride"],
-              meals: "Breakfast"
-            }
-          },
-          {
-            day: 3,
-            title: "Cappadocia",
-            details: {
-              place: "Cappadocia",
-              activities: ["Hot Air Baloon ride", "Underground city","Pigeon Valley","Uçhisar Castle","Göreme Panorama"," Rose Valley"],
-              meals: "Breakfast"
-            }
-          },
-          {
-            day: 4,
-            title: "Istanbul",
-            details: {
-              place: "Istanbul",
-              activities: ["Ortakoy Mosque", "Ayyub Sultan","Balat","Bosporus Cruise","Taksim"],
-              meals: "Breakfast"
-            }
-          },
-          {
-            day: 5,
-            title: "Istanbul",
-            details: {
-              place: "Istanbul",
-              activities: ["Shopping Day", "Grand Bazar","Spice Bazaar"],
-              meals: "Breakfast"
-            }
-          }
-        ]
-      },
-      {
-        id: 3,
-        name: 'ANTALYA & FETHIYE',
-        duration: "4 DAYS & 3 NIGHTS",
-        image: img5,
-        itinerary: [
-          {
-            day: 1,
-            title: "Antalya",
-            details: {
-              place: "Antalya",
-              activities: ["Upper Dudan waterfalls", "Lower Duden Waterfalls", "Old port"],
-              meals: "Breakfast"
-            }
-          },
-          {
-            day: 2,
-            title: "Antalya",
-            details: {
-              place: "Antalya",
-              activities: ["Antalya Aquarium", "Cable car", "Marina"],
-              meals: "Breakfast"
-            }
-          },
-          {
-            day: 3,
-            title: "Marmaris",
-            details: {
-              place: "Marmaris",
-              activities: ["Marina", "İsland cruise"],
-              meals: "Breakfast"
-            }
-          },
-          {
-            day: 4,
-            title: "Fethiye",
-            details: {
-              place: "Fethiye",
-              activities: ["Paragliding", "Butterfly Valley","Blue Lagoon","Old Greek village","Oludeniz Beach"],
-              meals: "Breakfast"
-            }
-          },
-        ]
-      },
-      {
-        id: 4,
-        name: 'ISTANBUL & BURSA',
-        duration: "5 DAYS & 4 NIGHTS",
-        image: img6,
-        itinerary: [
-          {
-            day: 1,
-            title: "Istanbul",
-            details: {
-              place: "Istanbul",
-              activities: ["Arrival", "Blue Mosque", "Aya Sofia"],
-              meals: "Breakfast"
-            }
-          },
-          {
-            day: 2,
-            title: "Istanbul",
-            details: {
-              place: "Istanbul",
-              activities: ["Topkapi Palace", "Ortaköy Mosque","Eminonu","Galata Tower","Taksim Square"],
-              meals: "Breakfast"
-            }
-          },
-          {
-            day: 3,
-            title: "Bursa",
-            details: {
-              place: "Bursa",
-              activities: ["Yalova (Hot Spring)", "Uludağ Mountain (Winter Sports)","Tomb Of Usman (Founder of Ottoman Empire)"],
-              meals: "Breakfast"
-            }
-          },
-          {
-            day: 4,
-            title: "Istanbul",
-            details: {
-              place: "Istanbul",
-              activities: ["Princess Island", "Bosporus Cruise"],
-              meals: "Breakfast"
-            }
-          },
-          {
-            day: 5,
-            title: "Istanbul",
-            details: {
-              place: "Istanbul",
-              activities: ["Spice Bazar", "Grand Bazar", "Day for Shopping"],
-              meals: "Breakfast"
-            }
-          },
-        ]
-      },
-      {
-        id: 5,
-        name: 'TURKEY GRAND TOUR',
-        duration: "12 DAYS & 11 NIGHTS",
-        image: img7,
-        itinerary: [
-          {
-            day: 1,
-            title: "Istanbul",
-            details: {
-              place: "Istanbul",
-              activities: ["Blue Mosque", "Galata Tower", "Aya Sofia"],
-              meals: "Breakfast"
-            }
-          },
-          {
-            day: 2,
-            title: "Istanbul",
-            details: {
-              place: "Istanbul",
-              activities: ["Topkapi Palace", "Ortaköy Mosque","Eminonu","Galata Tower","Taksim Square"],
-              meals: "Breakfast"
-            }
-          },
-          {
-            day: 3,
-            title: "Bursa",
-            details: {
-              place: "Bursa",
-              activities: ["Uludağ Mountain (Winter Sports)", "Tomb Of Usman & Orhan (founder of Ottoman empire)"],
-              meals: "Breakfast"
-            }
-          },
-          {
-            day: 4,
-            title: "Söğüt",
-            details: {
-              place: "Söğüt",
-              activities: ["Tomb of Ertuğrul Gazi", "Places which related Diriliş Ertuğrul series"],
-              meals: "Breakfast"
-            }
-          },
-          {
-            day: 5,
-            title: "Pamukkale",
-            details: {
-              place: "Pamukkale",
-              activities: ["Hierapolis tour"],
-              meals: "Breakfast"
-            }
-          },
-          {
-            day: 6,
-            title: "Fathiye",
-            details: {
-              place: "Fathiye",
-              activities: ["Butterfly Valley","Blue Lagoon","Old Greek village","Rock Tombs","Oludeniz Beach"],
-              meals: "Breakfast"
-            }
-          },
-          {
-            day: 7,
-            title: "Antalya",
-            details: {
-              place: "Antalya",
-              activities: ["Ephesus","Duden Waterfalls","Aquarium","Cable Car","Marina"],
-              meals: "Breakfast"
-            }
-          },
-          {
-            day: 8,
-            title: "Konya",
-            details: {
-              place: "Konya",
-              activities: ["Tomb of Rumi","Sama (Sufi Dance)"],
-              meals: "Breakfast"
-            }
-          },
-          {
-            day: 9,
-            title: "Cappadocia",
-            details: {
-              place: "Cappadocia",
-              activities: ["Göreme open-air museum","Paşabag","Devrent Valley","Avanos pottery demonstration"],
-              meals: "Breakfast"
-            }
-          },
-          {
-            day: 10,
-            title: "Cappadocia",
-            details: {
-              place: "Cappadocia",
-              activities: ["Hot air balloon","Underground city","Pigeon Valley","Uçhisar Castle","Göreme Panorama"," Rose Valley"],
-              meals: "Breakfast"
-            }
-          },
-          {
-            day: 11,
-            title: "Istanbul",
-            details: {
-              place: "Istanbul",
-              activities: ["Sulimaniye Mosque","Ayyub Sultan","Fatih Mosque","Camlica Mosque"],
-              meals: "Breakfast"
-            }
-          },
-          {
-            day: 12,
-            title: "Istanbul",
-            details: {
-              place: "Istanbul",
-              activities: ["Grand Bazaar","Spice Bazaar","Bosphorus Cruise"],
-              meals: "Breakfast"
-            }
-          },
-        ]
-      },
+    // const samplePackages  = [
+    //   {
+    //     id: 1,
+    //     name: 'TURKEY IN A WEEK',
+    //     duration: "7 DAYS & 6 NIGHTS",
+    //     image: img3,
+    //     itinerary: [
+    //       {
+    //         day: 1,
+    //         title: "Istanbul",
+    //         details: {
+    //           place: "Istanbul",
+    //           activities: ["Arrival", "Blue Mosque", "Aya Sofia","Galata tower"],
+    //           meals: "Breakfast"
+    //         }
+    //       },
+    //       {
+    //         day: 2,
+    //         title: "Cappadocia",
+    //         details: {
+    //           place: "Cappadocia",
+    //           activities: ["Road trip to Cappadocia (760 KM, via Ankara)", "Paşabag", "Devrent Valley"," Avanos pottery demonstration","Horse Ride"],
+    //           meals: "Breakfast"
+    //         }
+    //       },
+    //       {
+    //         day: 3,
+    //         title: "Cappadocia",
+    //         details: {
+    //           place: "Cappadocia",
+    //           activities: ["Hot Air Balloon Ride", "Underground city", " Pigeon Valley", "Uçhisar Castle", "Göreme Panorama", "Rose Valley", "Drive to Fethiye (746 KM, via Isparta & Konya)"],
+    //           meals: "Breakfast"
+    //         }
+    //       },
+    //       {
+    //         day: 4,
+    //         title: "Fethiye",
+    //         details: {
+    //           place: "Fethiye",
+    //           activities: ["Sightseeing", "Paragliding","Cave Village (ruins)","Fish bazaar","Panoramas","Hidden Villages","Marina"],
+    //           meals: "Breakfast"
+    //         }
+    //       },
+    //       {
+    //         day: 5,
+    //         title: "Bursa",
+    //         details: {
+    //           place: "Bursa",
+    //           activities: ["Drive to Pamukkale", "Hierapolis","Greek city","Hot air balloon","Drive to Istanbul via Bursa"],
+    //           meals: "Breakfast"
+    //         }
+    //       },
+    //       {
+    //         day: 6,
+    //         title: "Istanbul",
+    //         details: {
+    //           place: "Istanbul",
+    //           activities: ["Spice Bazar", "Ortakoy Mosque","Balat","Taksim","Bosporus Cruise"],
+    //           meals: "Breakfast"
+    //         }
+    //       },
+    //       {
+    //         day: 7,
+    //         title: "Istanbul",
+    //         details: {
+    //           place: "Istanbul",
+    //           activities: ["Grand Bazar", "A whole day for Shopping."],
+    //           meals: "Breakfast"
+    //         }
+    //       }
+    //     ]
+    //   },
+    //   {
+    //     id: 2,
+    //     name: 'ISTANBUL & CAPPADOCIA',
+    //     duration: "5 DAYS & 4 NIGHTS",
+    //     image: img4,
+    //     itinerary: [
+    //       {
+    //         day: 1,
+    //         title: "Istanbul",
+    //         details: {
+    //           place: "Istanbul",
+    //           activities: ["Arrival", "Blue Mosque", "Aya Sofia","Galata tower"],
+    //           meals: "Breakfast"
+    //         }
+    //       },
+    //       {
+    //         day: 2,
+    //         title: "Cappadocia",
+    //         details: {
+    //           place: "Cappadocia",
+    //           activities: ["Paşabag", "Devrent Valley", "Avanos pottery demonstration","Horse Ride"],
+    //           meals: "Breakfast"
+    //         }
+    //       },
+    //       {
+    //         day: 3,
+    //         title: "Cappadocia",
+    //         details: {
+    //           place: "Cappadocia",
+    //           activities: ["Hot Air Baloon ride", "Underground city","Pigeon Valley","Uçhisar Castle","Göreme Panorama"," Rose Valley"],
+    //           meals: "Breakfast"
+    //         }
+    //       },
+    //       {
+    //         day: 4,
+    //         title: "Istanbul",
+    //         details: {
+    //           place: "Istanbul",
+    //           activities: ["Ortakoy Mosque", "Ayyub Sultan","Balat","Bosporus Cruise","Taksim"],
+    //           meals: "Breakfast"
+    //         }
+    //       },
+    //       {
+    //         day: 5,
+    //         title: "Istanbul",
+    //         details: {
+    //           place: "Istanbul",
+    //           activities: ["Shopping Day", "Grand Bazar","Spice Bazaar"],
+    //           meals: "Breakfast"
+    //         }
+    //       }
+    //     ]
+    //   },
+    //   {
+    //     id: 3,
+    //     name: 'ANTALYA & FETHIYE',
+    //     duration: "4 DAYS & 3 NIGHTS",
+    //     image: img5,
+    //     itinerary: [
+    //       {
+    //         day: 1,
+    //         title: "Antalya",
+    //         details: {
+    //           place: "Antalya",
+    //           activities: ["Upper Dudan waterfalls", "Lower Duden Waterfalls", "Old port"],
+    //           meals: "Breakfast"
+    //         }
+    //       },
+    //       {
+    //         day: 2,
+    //         title: "Antalya",
+    //         details: {
+    //           place: "Antalya",
+    //           activities: ["Antalya Aquarium", "Cable car", "Marina"],
+    //           meals: "Breakfast"
+    //         }
+    //       },
+    //       {
+    //         day: 3,
+    //         title: "Marmaris",
+    //         details: {
+    //           place: "Marmaris",
+    //           activities: ["Marina", "İsland cruise"],
+    //           meals: "Breakfast"
+    //         }
+    //       },
+    //       {
+    //         day: 4,
+    //         title: "Fethiye",
+    //         details: {
+    //           place: "Fethiye",
+    //           activities: ["Paragliding", "Butterfly Valley","Blue Lagoon","Old Greek village","Oludeniz Beach"],
+    //           meals: "Breakfast"
+    //         }
+    //       },
+    //     ]
+    //   },
+    //   {
+    //     id: 4,
+    //     name: 'ISTANBUL & BURSA',
+    //     duration: "5 DAYS & 4 NIGHTS",
+    //     image: img6,
+    //     itinerary: [
+    //       {
+    //         day: 1,
+    //         title: "Istanbul",
+    //         details: {
+    //           place: "Istanbul",
+    //           activities: ["Arrival", "Blue Mosque", "Aya Sofia"],
+    //           meals: "Breakfast"
+    //         }
+    //       },
+    //       {
+    //         day: 2,
+    //         title: "Istanbul",
+    //         details: {
+    //           place: "Istanbul",
+    //           activities: ["Topkapi Palace", "Ortaköy Mosque","Eminonu","Galata Tower","Taksim Square"],
+    //           meals: "Breakfast"
+    //         }
+    //       },
+    //       {
+    //         day: 3,
+    //         title: "Bursa",
+    //         details: {
+    //           place: "Bursa",
+    //           activities: ["Yalova (Hot Spring)", "Uludağ Mountain (Winter Sports)","Tomb Of Usman (Founder of Ottoman Empire)"],
+    //           meals: "Breakfast"
+    //         }
+    //       },
+    //       {
+    //         day: 4,
+    //         title: "Istanbul",
+    //         details: {
+    //           place: "Istanbul",
+    //           activities: ["Princess Island", "Bosporus Cruise"],
+    //           meals: "Breakfast"
+    //         }
+    //       },
+    //       {
+    //         day: 5,
+    //         title: "Istanbul",
+    //         details: {
+    //           place: "Istanbul",
+    //           activities: ["Spice Bazar", "Grand Bazar", "Day for Shopping"],
+    //           meals: "Breakfast"
+    //         }
+    //       },
+    //     ]
+    //   },
+    //   {
+    //     id: 5,
+    //     name: 'TURKEY GRAND TOUR',
+    //     duration: "12 DAYS & 11 NIGHTS",
+    //     image: img7,
+    //     itinerary: [
+    //       {
+    //         day: 1,
+    //         title: "Istanbul",
+    //         details: {
+    //           place: "Istanbul",
+    //           activities: ["Blue Mosque", "Galata Tower", "Aya Sofia"],
+    //           meals: "Breakfast"
+    //         }
+    //       },
+    //       {
+    //         day: 2,
+    //         title: "Istanbul",
+    //         details: {
+    //           place: "Istanbul",
+    //           activities: ["Topkapi Palace", "Ortaköy Mosque","Eminonu","Galata Tower","Taksim Square"],
+    //           meals: "Breakfast"
+    //         }
+    //       },
+    //       {
+    //         day: 3,
+    //         title: "Bursa",
+    //         details: {
+    //           place: "Bursa",
+    //           activities: ["Uludağ Mountain (Winter Sports)", "Tomb Of Usman & Orhan (founder of Ottoman empire)"],
+    //           meals: "Breakfast"
+    //         }
+    //       },
+    //       {
+    //         day: 4,
+    //         title: "Söğüt",
+    //         details: {
+    //           place: "Söğüt",
+    //           activities: ["Tomb of Ertuğrul Gazi", "Places which related Diriliş Ertuğrul series"],
+    //           meals: "Breakfast"
+    //         }
+    //       },
+    //       {
+    //         day: 5,
+    //         title: "Pamukkale",
+    //         details: {
+    //           place: "Pamukkale",
+    //           activities: ["Hierapolis tour"],
+    //           meals: "Breakfast"
+    //         }
+    //       },
+    //       {
+    //         day: 6,
+    //         title: "Fathiye",
+    //         details: {
+    //           place: "Fathiye",
+    //           activities: ["Butterfly Valley","Blue Lagoon","Old Greek village","Rock Tombs","Oludeniz Beach"],
+    //           meals: "Breakfast"
+    //         }
+    //       },
+    //       {
+    //         day: 7,
+    //         title: "Antalya",
+    //         details: {
+    //           place: "Antalya",
+    //           activities: ["Ephesus","Duden Waterfalls","Aquarium","Cable Car","Marina"],
+    //           meals: "Breakfast"
+    //         }
+    //       },
+    //       {
+    //         day: 8,
+    //         title: "Konya",
+    //         details: {
+    //           place: "Konya",
+    //           activities: ["Tomb of Rumi","Sama (Sufi Dance)"],
+    //           meals: "Breakfast"
+    //         }
+    //       },
+    //       {
+    //         day: 9,
+    //         title: "Cappadocia",
+    //         details: {
+    //           place: "Cappadocia",
+    //           activities: ["Göreme open-air museum","Paşabag","Devrent Valley","Avanos pottery demonstration"],
+    //           meals: "Breakfast"
+    //         }
+    //       },
+    //       {
+    //         day: 10,
+    //         title: "Cappadocia",
+    //         details: {
+    //           place: "Cappadocia",
+    //           activities: ["Hot air balloon","Underground city","Pigeon Valley","Uçhisar Castle","Göreme Panorama"," Rose Valley"],
+    //           meals: "Breakfast"
+    //         }
+    //       },
+    //       {
+    //         day: 11,
+    //         title: "Istanbul",
+    //         details: {
+    //           place: "Istanbul",
+    //           activities: ["Sulimaniye Mosque","Ayyub Sultan","Fatih Mosque","Camlica Mosque"],
+    //           meals: "Breakfast"
+    //         }
+    //       },
+    //       {
+    //         day: 12,
+    //         title: "Istanbul",
+    //         details: {
+    //           place: "Istanbul",
+    //           activities: ["Grand Bazaar","Spice Bazaar","Bosphorus Cruise"],
+    //           meals: "Breakfast"
+    //         }
+    //       },
+    //     ]
+    //   },
       
-    ];
+    // ];
     
   
     dispatch(setPackages(samplePackages));

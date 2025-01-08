@@ -25,8 +25,7 @@ const Footer = () => {
         </div>
 
         <div className='md:w-1/2  space-y-8 pt-4 flex justify-center md:justify-start md:space-y-0 '>
-          <div className='w-11/12 mx-auto text-center md:text-start'>
-            <h5 className='font-Switzer-Medium text-xs text-gray3 xl:text-sm'>Sitemap</h5>
+          <div className='w-11/12 mx-auto text-center md:text-start mt-6 sm:mb-0 mb-6'>
             <h3 className='uppercase mt-6 md:mt-10 font-Switzer-Medium text-sm xl:text-base hover:text-gray cursor-pointer transition-colors duration-300'><Link to={'/'}>Home</Link></h3>
             <h3 className='uppercase font-Switzer-Medium text-sm xl:text-base hover:text-gray cursor-pointer transition-colors duration-300'><Link to={'/about'}>About</Link></h3>
             <h3 className='uppercase font-Switzer-Medium text-sm xl:text-base hover:text-gray cursor-pointer transition-colors duration-300'><Link to={'/packages'}>Packages</Link></h3>
@@ -36,7 +35,7 @@ const Footer = () => {
 
           </div>
           <div className='w-11/12 mx-auto text-center md:text-start md:pb-0 pb-6'>
-            <h5 className='font-Switzer-Medium text-xs  text-gray3 xl:text-sm'>Socials</h5>
+            <h5 className='font-Switzer-Medium text-xs  text-gray3 xl:text-sm mt-6 md:mt-14'>Socials</h5>
             <h4 className='mt-6 md:mt-10'><a
               href="/#"
               target="_blank"
@@ -61,14 +60,6 @@ const Footer = () => {
               className='uppercase font-Switzer-Medium text-sm text-white font-Marcellus xl:text-base hover:text-gray cursor-pointer transition-colors duration-300'
             >
               linkedin
-            </a></h4>
-            <h4 ><a
-              href="https://www.linkedin.com/company/gomilesinternational/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className='uppercase font-Switzer-Medium text-sm text-white font-Marcellus xl:text-base hover:text-gray cursor-pointer transition-colors duration-300'
-            >
-              x.com
             </a></h4>
 
           </div>

@@ -52,19 +52,19 @@ const PackageDetails = () => {
                             className="space-y-2 border-b-2 border-golden pb-4 transition duration-300"
                         >
                             <h3 className="font-Aceh-Light sm:text-xl lg:text-base xl:text-lg">
-                                <span className="font-Bevas text-lg uppercase sm:text-xl font-bold lg:text-lg xl:text-2xl">
+                                <span className="font-Bevas text-lg uppercase sm:text-xl font-bold lg:text-lg xl:text-2xl mr-2">
                                     Day {day.day}:
                                 </span>
                                 {day.title}
                             </h3>
                             <p className="font-Aceh-Light text-lg">
-                                <span className="font-Bevas text-lg uppercase sm:text-xl font-bold lg:text-lg xl:text-2xl">
+                                <span className="font-Bevas text-lg uppercase sm:text-xl font-bold lg:text-lg xl:text-2xl mr-2">
                                     Location:
                                 </span>
                                 {day.details.place}
                             </p>
                             <p className="font-Aceh-Light text-lg">
-                                <span className="font-Bevas text-lg uppercase sm:text-xl font-bold lg:text-lg xl:text-2xl">
+                                <span className="font-Bevas text-lg uppercase sm:text-xl font-bold lg:text-lg xl:text-2xl mr-2">
                                     Meals:
                                 </span>
                                 {day.details.meals}

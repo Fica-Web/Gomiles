@@ -37,7 +37,7 @@ const Footer = () => {
           <div className='w-11/12 mx-auto text-center md:text-start md:pb-0 pb-6'>
             <h5 className='font-Switzer-Medium text-xs  text-gray3 xl:text-sm mt-6 md:mt-14'>Socials</h5>
             <h4 className='mt-6 md:mt-10'><a
-              href="/#"
+              href="https://www.facebook.com/gomilesturkey"
               target="_blank"
               rel="noopener noreferrer"
               className=' uppercase font-Switzer-Medium text-sm mt-2 text-white  xl:text-base hover:text-gray cursor-pointer transition-colors duration-300'

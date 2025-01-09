@@ -463,7 +463,7 @@ const samplePackages = [
   {
     id: 6,
     name: "Azerbaijan",
-    duration: "5 DAYS",
+    duration: "5 DAYS & 4 NIGHTS",
     image: img8,
     itinerary: [
       {
@@ -530,7 +530,7 @@ const samplePackages = [
   {
     id: 7,
     name: "Egypt",
-    duration: "6 DAYS",
+    duration: "6 DAYS & 5 NIGHTS",
     image: img9,
     itinerary: [
       {
@@ -617,7 +617,7 @@ const samplePackages = [
   {
     id: 8,
     name: "Georgia",
-    duration: "5 DAYS",
+    duration: "5 DAYS & 4 NIGHTS",
     image: img10, 
     itinerary: [
       {
@@ -706,7 +706,7 @@ const samplePackages = [
   {
     id: 9,
     name: "Dubai",
-    duration: "5 DAYS",
+    duration: "5 DAYS & 4 NIGHTS",
     image: img11, // Replace with the actual image variable or path
     itinerary: [
       {
@@ -792,7 +792,7 @@ const samplePackages = [
   {
     id: 10,
     name: "Marrakech",
-    duration: "5 DAYS",
+    duration: "5 DAYS & 4 NIGHTS",
     image: img12, // Replace with the actual image variable or path
     itinerary: [
       {

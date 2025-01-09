@@ -46,7 +46,7 @@ const Footer = () => {
             </a></h4>
 
             <h4 ><a
-              href="https://www.instagram.com/gomilesturkey/profilecard/?igsh=MXI4dnF5NW1kMjdpcw=="
+              href="https://www.instagram.com/gomilesturkey"
               target="_blank"
               rel="noopener noreferrer"
               className='uppercase font-Switzer-Medium text-sm text-white font-Marcellus xl:text-base hover:text-gray cursor-pointer transition-colors duration-300'

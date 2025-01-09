@@ -880,7 +880,7 @@ const samplePackages = [
       "English-speaking guide",
       "Entrance fees to sites and activities"
     ],
-  }  
+  },
 ];
 
 export default samplePackages;

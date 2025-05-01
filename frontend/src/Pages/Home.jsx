@@ -1,5 +1,6 @@
 import React from 'react';
 import { Helmet } from 'react-helmet-async';
+import HomeNavbar from '../Components/NavBar/HomeNavbar';
 import Banner from '../Components/Home/Banner';
 import Introduction from '../Components/Home/Introduction';
 import Hero from '../Components/Home/Hero';
@@ -55,6 +56,7 @@ const Home = () => {
         <script type="application/ld+json">{JSON.stringify(localBusinessSchema)}</script>
       </Helmet>
 
+      <HomeNavbar />
       <Banner />
       <Hero />
       <PackageCard limit={8} />

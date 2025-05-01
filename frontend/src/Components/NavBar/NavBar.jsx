@@ -3,14 +3,9 @@ import { Link } from "react-router-dom";
 import logo from "../../assets/Images/logo-01.png";
 import { IonIcon } from "@ionic/react";
 import { menu, close } from "ionicons/icons";
+import navOptions from "../../Data/navOptions";
 
 const NavBar = () => {
-  const Links = [
-    { name: "Home", link: "/" },
-    { name: "About", link: "/about" },
-    { name: "Packages", link: "/packages" },
-    { name: "Contact", link: "/contact" },
-  ];
   const [open, setOpen] = useState(false);
 
   return (
@@ -36,7 +31,7 @@ const NavBar = () => {
           lg:mt-4 md:mt-4 mt-8 lg:space-y-0 lg:space-x-8 lg:static absolute left-0 w-full lg:w-auto
           lg:pl-0 pl-9 transition-all duration-300 ease-in z-40 ${open ? "top-20 opacity-100" : "top-[-490px]"} lg:opacity-100 opacity-0`}
         >
-          {Links.map((link) => (
+          {navOptions.map((link) => (
             <li
               key={link.name}
               className="relative lg:my-0 my-7 text-black lg:text-sm xl:text-base uppercase hover:text-gray-400 duration-500 group"

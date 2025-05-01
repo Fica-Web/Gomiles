@@ -2,6 +2,7 @@ import React from 'react';
 import { Helmet } from 'react-helmet-async';
 import HomeNavbar from '../Components/NavBar/HomeNavbar';
 import Banner from '../Components/Home/Banner';
+import WhatsAppButton from '../Components/common/WhatsappButton';
 import Introduction from '../Components/Home/Introduction';
 import Hero from '../Components/Home/Hero';
 import Testimonials from '../Components/Home/Testimonials';
@@ -57,6 +58,7 @@ const Home = () => {
       </Helmet>
 
       <HomeNavbar />
+      <WhatsAppButton />
       <Banner />
       <Hero />
       <PackageCard limit={8} />

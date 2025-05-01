@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import logo from "../../assets/Images/logo-01.png";
+import logo from "../../assets/Images/logo-02.png";
 import { IonIcon } from "@ionic/react";
 import { menu, close } from "ionicons/icons";
 import navOptions from "../../Data/navOptions";
@@ -11,9 +11,9 @@ const NavBar = () => {
   return (
     <div className="w-full top-0 left-0 z-50 relative ">
       {/* Desktop & Mobile Wrapper */}
-      <div className="md:px-10 px-7 py-4 flex md:flex-col items-center justify-between lg:justify-center ">
+      <div className="md:px-10 px-5 lg:py-10 py-5 flex md:flex-col items-center justify-between lg:justify-center ">
         {/* Logo Section */}
-        <div className="w-36 flex-shrink-0 max-h-[100px]">
+        <div className="w-36 flex-shrink-0 lg:max-h-[100px]">
           <img src={logo} alt="Gomiles Logo" />
         </div>
 
